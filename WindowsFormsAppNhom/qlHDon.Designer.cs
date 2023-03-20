@@ -47,25 +47,25 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(293, 26);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 24);
+            this.label1.Size = new System.Drawing.Size(798, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh sách hoá đơn";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // DtgvDSHD
             // 
             this.DtgvDSHD.AllowUserToDeleteRows = false;
             this.DtgvDSHD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgvDSHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtgvDSHD.Location = new System.Drawing.Point(1, 154);
+            this.DtgvDSHD.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.DtgvDSHD.Location = new System.Drawing.Point(0, 150);
             this.DtgvDSHD.Name = "DtgvDSHD";
             this.DtgvDSHD.ReadOnly = true;
-            this.DtgvDSHD.Size = new System.Drawing.Size(798, 300);
+            this.DtgvDSHD.Size = new System.Drawing.Size(800, 300);
             this.DtgvDSHD.TabIndex = 1;
             // 
             // qlHDon
@@ -77,8 +77,8 @@
             this.Controls.Add(this.panel1);
             this.Name = "qlHDon";
             this.Text = "qlHDon";
+            this.Load += new System.EventHandler(this.qlHDon_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtgvDSHD)).EndInit();
             this.ResumeLayout(false);
 

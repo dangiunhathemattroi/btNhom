@@ -16,7 +16,7 @@ namespace WindowsFormsAppNhom
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new xemSP());
+            Application.Run(new qlDoiTac());
         }
     }
 }

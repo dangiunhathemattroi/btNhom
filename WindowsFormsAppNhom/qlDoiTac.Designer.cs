@@ -127,7 +127,7 @@ namespace WindowsFormsAppNhom
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgv);
-            this.splitContainer1.Size = new System.Drawing.Size(1181, 450);
+            this.splitContainer1.Size = new System.Drawing.Size(1169, 450);
             this.splitContainer1.SplitterDistance = 182;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -157,18 +157,16 @@ namespace WindowsFormsAppNhom
             this.splitContainer2.Panel2.Controls.Add(this.tbtensp);
             this.splitContainer2.Panel2.Controls.Add(this.label3);
             this.splitContainer2.Panel2.Controls.Add(this.label4);
-            this.splitContainer2.Size = new System.Drawing.Size(1181, 182);
-            this.splitContainer2.SplitterDistance = 600;
+            this.splitContainer2.Size = new System.Drawing.Size(1169, 182);
+            this.splitContainer2.SplitterDistance = 585;
             this.splitContainer2.TabIndex = 0;
             // 
             // tbtendt
             // 
-            this.tbtendt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbtendt.Location = new System.Drawing.Point(89, 63);
+            this.tbtendt.Location = new System.Drawing.Point(106, 63);
             this.tbtendt.Name = "tbtendt";
             this.tbtendt.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tbtendt.Size = new System.Drawing.Size(469, 22);
+            this.tbtendt.Size = new System.Drawing.Size(467, 22);
             this.tbtendt.TabIndex = 2;
             // 
             // btThem
@@ -196,12 +194,10 @@ namespace WindowsFormsAppNhom
             // 
             // tbmadt
             // 
-            this.tbmadt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbmadt.Location = new System.Drawing.Point(89, 22);
+            this.tbmadt.Location = new System.Drawing.Point(106, 22);
             this.tbmadt.Name = "tbmadt";
             this.tbmadt.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tbmadt.Size = new System.Drawing.Size(469, 22);
+            this.tbmadt.Size = new System.Drawing.Size(467, 22);
             this.tbmadt.TabIndex = 1;
             // 
             // label2
@@ -228,7 +224,7 @@ namespace WindowsFormsAppNhom
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(243, 117);
+            this.btThoat.Location = new System.Drawing.Point(348, 117);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(75, 45);
             this.btThoat.TabIndex = 9;
@@ -249,20 +245,16 @@ namespace WindowsFormsAppNhom
             // 
             // tbmasp
             // 
-            this.tbmasp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbmasp.Location = new System.Drawing.Point(128, 25);
             this.tbmasp.Name = "tbmasp";
-            this.tbmasp.Size = new System.Drawing.Size(410, 22);
+            this.tbmasp.Size = new System.Drawing.Size(409, 22);
             this.tbmasp.TabIndex = 3;
             // 
             // tbtensp
             // 
-            this.tbtensp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbtensp.Location = new System.Drawing.Point(128, 74);
             this.tbtensp.Name = "tbtensp";
-            this.tbtensp.Size = new System.Drawing.Size(410, 22);
+            this.tbtensp.Size = new System.Drawing.Size(409, 22);
             this.tbtensp.TabIndex = 4;
             // 
             // label3
@@ -298,7 +290,7 @@ namespace WindowsFormsAppNhom
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(1180, 262);
+            this.dgv.Size = new System.Drawing.Size(1168, 262);
             this.dgv.TabIndex = 9;
             // 
             // qlDoiTac
@@ -306,7 +298,7 @@ namespace WindowsFormsAppNhom
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1181, 450);
+            this.ClientSize = new System.Drawing.Size(1169, 450);
             this.Controls.Add(this.splitContainer1);
             this.Name = "qlDoiTac";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

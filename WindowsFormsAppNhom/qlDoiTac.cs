@@ -53,40 +53,9 @@ namespace WindowsFormsAppNhom
                 Application.Exit();
             }
         }
-        /*   public bool KTThongTin()
-           {
-               if (tbmadt.Text == "")
-               {
-                   MessageBox.Show("Vui lòng nhập mã đối tác ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                   tbmadt.Focus();
-                   return false;
-               }
-               if (tbtendt.Text == "")
-               {
-                   MessageBox.Show("Vui lòng nhập Tên đối tác ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                   tbtendt.Focus();
-                   return false;
-               }
-               if (tbmasp.Text == "")
-               {
-                   MessageBox.Show("Vui lòng nhập mã sản phẩm ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                   tbmasp.Focus();
-                   return false;
-               }
-               if (tbtensp.Text == "")
-               {
-                   MessageBox.Show("Vui lòng nhập tên sản phẩm ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                   tbtensp.Focus();
-                   return false;
-               }
-
-               return true;
-           }*/
-
+      
         private void btThem_Click(object sender, EventArgs e)
         {
-
-
 
             sql = "insert into doiTac values (@maDT, @tenDT, @maHH, @tensp)";
             if (tbmadt.Text.Length == 0 || tbmasp.Text.Length == 0 || tbtendt.Text.Length == 0 || tbtensp.Text.Length == 0)
@@ -104,24 +73,7 @@ namespace WindowsFormsAppNhom
             }
 
 
-        }/*
-        private void tbmadt_Enter(object sender, EventArgs e)
-        {
-            if (tbmadt.Text == "Thêm mới không cần nhập")
-            {
-                tbmadt.Clear();
-                tbmadt.ForeColor = SystemColors.Highlight;
-            }
         }
-        private void tbmadt_Leave(object sender, EventArgs e)
-        {
-            if (tbmadt.Text == "")
-            {
-                tbmadt.Text = "Thêm mới không cần nhập";
-                tbmadt.ForeColor = SystemColors.InactiveCaption;
-            }
-        }
-    */
         int ddc;
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -129,8 +81,8 @@ namespace WindowsFormsAppNhom
             ddc = e.RowIndex;
             tbmadt.Text = Convert.ToString(row.Cells["Mã đối tác "].Value);
             tbtendt.Text = Convert.ToString(row.Cells["Tên đối tác "].Value);
-            tbmasp.Text = Convert.ToString(row.Cells["Mã sản phẩm "].Value);
-            tbtensp.Text = Convert.ToString(row.Cells["Tên sản phẩm "].Value);
+            tbmasp.Text = Convert.ToString(row.Cells["Mã hàng hóa  "].Value);
+            tbtensp.Text = Convert.ToString(row.Cells["Tên hàng hóa "].Value);
         }
 
         private void btXoa_Click(object sender, EventArgs e) {
